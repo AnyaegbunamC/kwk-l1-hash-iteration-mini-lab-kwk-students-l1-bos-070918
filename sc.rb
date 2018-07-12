@@ -1,37 +1,37 @@
-# #   Level 1: Write some code which given a state name ("Massachusetts") outputs its capital ("Boston")
+#   Level 1: Write some code which given a state name ("Massachusetts") outputs its capital ("Boston")
 
-# states_capitals = {}
+states_capitals = {}
 
-# states = {"Massachusets" => "MA", 
-#           "Wisconsin" =>"WI",
-#           "New Jersey" => "NJ",
-#           "Colorado" => "CO",
-#           "New York" => "NY"}
+states = {"Massachusets" => "MA", 
+          "Wisconsin" =>"WI",
+          "New Jersey" => "NJ",
+          "Colorado" => "CO",
+          "New York" => "NY"}
 
-# capitals = {"MA" => "Boston",
-#             "WI" => "Madison",
-#             "NJ" => "Trenton",
-#             "CO" => "Denver",
-#             "NY" => "Albany"}
+capitals = {"MA" => "Boston",
+            "WI" => "Madison",
+            "NJ" => "Trenton",
+            "CO" => "Denver",
+            "NY" => "Albany"}
  
-# puts "What would you like to know the capital of?"          
+puts "What would you like to know the capital of?"          
  
-# given = gets.chomp 
+given = gets.chomp 
  
-# if capitals[states[given]].nil?
-#   puts "Unknown State Capital! Sorry!"
-# else 
-#   puts capitals[states[given]]
-# end 
+if capitals[states[given]].nil?
+  puts "Unknown State Capital! Sorry!"
+else 
+  puts capitals[states[given]]
+end 
  
  
-# # "What is the capital of #{given}?"
+# "What is the capital of #{given}?"
 
-# # given = "New York"
+# given = "New York"
 
-# # "Capital of #{given} is #{capital} !"
+# "Capital of #{given} is #{capital} !"
 
-# # capital.gets.chomp
+# capital.gets.chomp
 
 
 
